@@ -1,62 +1,61 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 @media screen and (max-width: 1366px) {
-  body p {
-    font-size: 30px;
+  body {
+    font-size: 3rem;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  body p {
-    font-size: 20px;
+  body {
+    font-size: 3rem;
   }
 }
 
 @media screen and (max-width: 768px) {
-  body p {
-    font-size: 10px;
+  body {
+    font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  body p {
-    font-size: 8px;
+  body {
+    font-size: 1.5rem;
   }
+}
+
+.responsive {
+  display: grid;
+  width: 30vw;
+  height: 30vh;
+}
+
+.box {
+  margin: 5px;
+  width: 30%;
+  height: 30%;
+  background-color: red;
+  color: red;
+  border: 1px black solid;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 6px;
+}
+
+div {
+  border: 2px solid #2ecc71;
+  margin-left: 6px;
+}
+
+@media screen and (max-width: 768px) {
+body {
+    grid-auto-flow: row;
+} 
 }
