@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {SiDatabricks} from 'react-icons/si';
 import {FaBars, FaTimes} from 'react-icons/fa';
+import {Link} from 'react-router-dom';
 import './NavbarStyles.css';
 
 const Navbar = () => {
@@ -8,7 +9,7 @@ const Navbar = () => {
     const handleNav = () => setNav(!nav);
 
     return  (
-        <div className='navbar'>
+        <div name='top' className='navbar'>
             <div className='container'>
                 <div className='logo'>
                 <SiDatabricks className='icon' />
@@ -17,10 +18,10 @@ const Navbar = () => {
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-                    <li>Home</li>
-                    <li>Recovery</li>
-                    <li>Cloud</li>
-                    <li>Contact</li>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/recovery'>Recovery</Link></li>
+                    <li><Link to='/cloud'>Cloud</Link></li>
+                    <li><Link to='/contact'>Contact</Link></li>
                     <button>Sign in</button>
                 </ul>
 
