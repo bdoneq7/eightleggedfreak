@@ -5,6 +5,10 @@
     background: rgba(0,0,0,.5);
 }
 
+.contact h1 {
+    color: #f8f8f8;
+}
+
 .contact:before {
     content: '';
     position: absolute;
@@ -19,6 +23,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    padding-top: 4.5rem;
 }
 
 .contact form {
@@ -56,5 +61,9 @@
 @media screen and (width: 940px) {
     .contact form {
         width: 100%;
+    }
+
+    .contact h1 {
+        font-size: 1.8rem;
     }
 }
