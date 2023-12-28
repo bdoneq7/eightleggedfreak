@@ -64,5 +64,9 @@
         width: 100%;
     }
 
+    .contact .container .form-container {
+        padding-top: 2.5rem;
+    }
+
     
 }

@@ -107,9 +107,15 @@
 
     .footer .col-container {
         grid-template-columns: 2fr 2fr;
+    
+    }
+
+    .footer .col {
+        margin-bottom: 1rem;
     }
 
     .footer form {
+        margin-top: .5rem;
         grid-column: 1 / span 2;
     }
 }
