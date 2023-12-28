@@ -6,10 +6,10 @@ const Recovery = () => {
         <div className='recovery'>
           <div className='container'>
             <div className='content'>
-                <h2><span>Data</span> Recovery</h2>
+                <h2><span>Website</span> Portfolio</h2>
                 <p>Text</p>
                 <div>
-                    <button>Learn More</button>
+                    <button>Explore</button>
                 </div>
             </div>
 

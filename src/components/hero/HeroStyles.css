@@ -22,6 +22,11 @@
     color: #f8f8f8;
 }
 
+.hero p {
+    color: #f8f8f8;
+    padding-top: 1rem;
+}
+
 .hero .blue {
     color: var(--primary-color);
 }

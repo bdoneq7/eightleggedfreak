@@ -6,9 +6,9 @@ const Cloud = () => {
         <div className='cloud'>
             <div className='container'>
                 <div className='content'>
-                    <h2><span>Cloud</span>Security</h2>
+                    <h2><span>Web Development</span> Services</h2>
                     <p>text</p>
-                    <div><button>Sign Up</button></div>
+                    <div><button>Learn More</button></div>
                 </div>
             </div>
 

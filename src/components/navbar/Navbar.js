@@ -13,14 +13,14 @@ const Navbar = () => {
             <div className='container'>
                 <div className='logo'>
                 <SiDatabricks className='icon' />
-                    <h1>Secured</h1>
+                    <h1>8 Leggged Freak</h1>
                     
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/recovery'>Recovery</Link></li>
-                    <li><Link to='/cloud'>Cloud</Link></li>
+                    <li><Link to='/recovery'>Portfolio</Link></li>
+                    <li><Link to='/cloud'>Services</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
                     <button>Sign in</button>
                 </ul>

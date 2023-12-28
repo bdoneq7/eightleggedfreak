@@ -16,7 +16,7 @@ const Footer = () => {
 
                     <div className="logo-footer">
                         <SiDatabricks className='icon' />
-                        <h2>Secured.</h2>
+                        <h2>8 Legged Freak</h2>
                     </div>
                     <Link activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                     <BsFillArrowUpCircleFill className='icon' />
@@ -26,39 +26,39 @@ const Footer = () => {
                 <div className="col-container">
 
                     <div className="col">
-                        <h3>Navigation</h3>
-                        <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
-                        <p>Contact</p>
+                        <h3>Portfolio</h3>
+                        <p>Web Development</p>
+                        <p>Logo Design</p>
+                        <p>Link</p>
+                        <p>Link</p>
+                    </div>
+
+                    <div className="col">
+                        <h3>Services</h3>
+                        <p>Web Development</p>
+                        <p>Logo Design</p>
+                        <p>Web Hosting</p>
+                        <p>Web Maintenance</p>
                     </div>
 
                     <div className="col">
                         <h3>My Account</h3>
-                        <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
-                        <p>Contact</p>
+                        <p>Login</p>
+                        <p>FAQ</p>
+                        <p>Link</p>
+                        <p>Support</p>
                     </div>
 
                     <div className="col">
-                        <h3>Information</h3>
-                        <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
-                        <p>Contact</p>
-                    </div>
-
-                    <div className="col">
-                        <h3>Legal</h3>
-                        <p>Home</p>
-                        <p>Data</p>
-                        <p>Cloud</p>
+                        <h3>Company</h3>
+                        <p>About Us</p>
+                        <p>Why Us?</p>
+                        <p>Link</p>
                         <p>Contact</p>
                     </div>
 
                     <form>
-                        <h3>Join Our Team</h3>
+                        <h3>Contact Us Today</h3>
                         <input type="email" placeholder='Enter Your Email' />
                         <FiMail className='mail-icon' />
 
