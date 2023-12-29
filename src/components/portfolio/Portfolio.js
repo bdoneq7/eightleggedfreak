@@ -1,9 +1,9 @@
 import React from 'react';
-import './RecoveryStyles.css';
+import './PortfolioStyles.css';
 
-const Recovery = () => {
+const Portfolio = () => {
     return  (
-        <div className='recovery'>
+        <div className='portfolio'>
           <div className='container'>
             <div className='content'>
                 <h2><span>Website</span> Portfolio</h2>
@@ -19,4 +19,4 @@ const Recovery = () => {
     )
 }
 
-export default Recovery;
+export default Portfolio;
