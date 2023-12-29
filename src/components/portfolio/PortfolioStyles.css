@@ -40,7 +40,19 @@
 
 .portfolio button {
     color: #ffffff;
+    -webkit-text-stroke: 0.2px #000000;
     text-shadow: 2px 2px 4px #000000;
+    
+}
+
+.portfolio .iconmain {
+    padding-top: .9rem;
+    
+}
+
+.portfolio .iconbutton {
+    margin-left: 0.75rem;
+    padding-top: .2rem;
     
 }
 

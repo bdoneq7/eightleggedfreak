@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaReact } from "react-icons/fa";
+import { FaArrowRightLong } from "react-icons/fa6";
 import './ServicesStyles.css';
 
 const Services = () => {
@@ -7,7 +8,7 @@ const Services = () => {
         <div className='services'>
             <div className='container'>
                 <div className='content'>
-                    <h2><FaReact className='icon' /><span> Web Development</span> Services</h2>
+                    <h2><FaReact className='iconmain' /><span> Web Development</span> Services</h2>
                     <p>
                     We offer packages that include Website Development, Logo Design, Website Hosting, and Website Maintenance.<br/>
                     <br/>
@@ -16,7 +17,7 @@ const Services = () => {
                     Website Hosting starts at $50/month<br/>
                     Website Maintenance starts at $50/month<br/>
                     </p>
-                    <div><button>Learn More</button></div>
+                    <div><button>Learn More <FaArrowRightLong className='iconbutton' /></button></div>
                 </div>
             </div>
 

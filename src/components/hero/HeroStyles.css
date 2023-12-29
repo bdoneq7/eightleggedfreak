@@ -17,7 +17,7 @@
 .hero .content {
     position: absolute;
     left: 0;
-    top: 20%;
+    top: 30%;
     width: 60%;
     padding: 1rem;
     
@@ -46,8 +46,20 @@
 
 .hero button {
     color: #ffffff;
+    -webkit-text-stroke: 0.2px #000000;
     text-shadow: 2px 2px 4px #000000;
     border: 1px solid #000000;
+}
+
+.hero .iconmain {
+    padding-top: .7rem;
+    
+}
+
+.hero .iconbutton {
+    margin-left: 0.75rem;
+    padding-top: .25rem;
+    
 }
 
 @media screen and (max-width:940px) {

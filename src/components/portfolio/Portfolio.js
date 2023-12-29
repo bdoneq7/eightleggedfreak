@@ -1,16 +1,17 @@
 import React from 'react';
 import './PortfolioStyles.css';
 import { CgWebsite } from "react-icons/cg";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Portfolio = () => {
     return  (
         <div className='portfolio'>
           <div className='container'>
             <div className='content'>
-                <h2><CgWebsite className='icon' /><span> Website</span> Portfolio</h2>
+                <h2><CgWebsite className='iconmain' /><span> Website</span> Portfolio</h2>
                 <p>Creative Custom Web Sites that are designed to be Professional and Responsive using React and Modern CSS</p>
                 <div>
-                    <button>Explore</button>
+                    <button>Explore <FaArrowRightLong className='iconbutton' /></button>
                 </div>
             </div>
 
