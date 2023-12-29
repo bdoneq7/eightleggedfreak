@@ -6,7 +6,7 @@ import App from './App';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import RecoveryPage from './routes/RecoveryPage';
-import CloudPage from './routes/CloudPage';
+import ServicesPage from './routes/ServicesPage';
 import ContactPage from './routes/ContactPage';
 
 ReactDOM.render(
@@ -14,7 +14,7 @@ ReactDOM.render(
     <Routes>
       <Route path='/' element={<App />} />
       <Route path='/recovery' element={<RecoveryPage />} />
-      <Route path='/cloud' element={<CloudPage />} />
+      <Route path='/services' element={<ServicesPage />} />
       <Route path='/contact' element={<ContactPage />} />
     </Routes>
   </BrowserRouter>,

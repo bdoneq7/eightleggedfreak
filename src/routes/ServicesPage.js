@@ -1,17 +1,17 @@
 import React from 'react';
 
 import Navbar from '../components/navbar/Navbar';
-import Cloud from '../components/cloud/Cloud';
+import Services from '../components/services/Services';
 import Footer from '../components/footer/Footer';
 
-const CloudPage = () => {
+const ServicesPage = () => {
     return  (
         <>
             <Navbar />
-            <Cloud />
+            <Services />
             <Footer />
         </>
     )
 }
 
-export default CloudPage;
+export default ServicesPage;

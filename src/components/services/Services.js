@@ -1,7 +1,7 @@
 import React from 'react';
-import './CloudStyles.css';
+import './ServicesStyles.css';
 
-const Cloud = () => {
+const Services = () => {
     return  (
         <div className='cloud'>
             <div className='container'>
@@ -16,4 +16,4 @@ const Cloud = () => {
     )
 }
 
-export default Cloud;
+export default Services;
