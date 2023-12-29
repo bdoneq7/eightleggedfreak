@@ -20,18 +20,21 @@
     
 }
 
-.hero h1 {
+.hero h2 {
     color: #f8f8f8;
-    background:rgba(0,0,0,0.5);
+    background:rgb(1, 1, 101, 0.75);
     padding: 0.5rem;
+    border-radius: 10px;
     
 }
 
 .hero p {
     color: #f8f8f8;
     padding-top: 1rem;
-    background:rgba(0,0,0,0.5);
+    background:rgba(0, 0, 101, 0.75);
     padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
 }
 
 .hero .blue {

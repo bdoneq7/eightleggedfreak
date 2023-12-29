@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {SiDatabricks} from 'react-icons/si';
+import { FaSpider } from "react-icons/fa6";
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 import './NavbarStyles.css';
@@ -12,7 +12,7 @@ const Navbar = () => {
         <div name='top' className='navbar'>
             <div className='container'>
                 <div className='logo'>
-                <SiDatabricks className='icon' />
+                <FaSpider className='icon' />
                     <h1>8 Legged Freak</h1>
                     
                 </div>

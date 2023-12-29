@@ -1,7 +1,8 @@
 import React from 'react';
-import {SiDatabricks} from 'react-icons/si';
+import { FaSpider } from "react-icons/fa6";
 import {BsFillArrowUpCircleFill} from 'react-icons/bs';
-import {FiMail, FiInstagram, FiFacebook, FiLinkedin, FiGithub} from 'react-icons/fi';
+import {FiMail, FiInstagram, FiFacebook, FiLinkedin} from 'react-icons/fi';
+import { IoLogoYoutube } from "react-icons/io";
 import './FooterStyles.css';
 
 import {Link} from 'react-scroll';
@@ -15,7 +16,7 @@ const Footer = () => {
                 <div className="top">
 
                     <div className="logo-footer">
-                        <SiDatabricks className='icon' />
+                        <FaSpider className='icon' />
                         <h2>8 Legged Freak</h2>
                     </div>
                     <Link activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -63,10 +64,10 @@ const Footer = () => {
                         <FiMail className='mail-icon' />
 
                         <div className="social-group">
-                            <FiInstagram className='social-icon' />
-                            <FiFacebook className='social-icon' />
-                            <FiLinkedin className='social-icon' />
-                            <FiGithub className='social-icon' />
+                            <FiLinkedin className='social-icon' alt="Linkedin" title="Linkedin"/>
+                            <FiFacebook className='social-icon' alt="Facebook" title="Facebook"/>
+                            <FiInstagram className='social-icon' alt="Instagram" title="Instagram"/>
+                            <IoLogoYoutube className='social-icon' alt="YouTube" title="YouTube"/>
                         </div>
 
                     </form>

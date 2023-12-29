@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdOutlineMonitor } from "react-icons/md";
 import './HeroStyles.css';
 
 const Hero = () => {
@@ -7,9 +8,10 @@ const Hero = () => {
             <div className='container'>
                 <div className='content'>
                     
-                    <h1 className='blue'>Custom Quality</h1>
-                    <h1>Web Development</h1>
-                    <p>Brian Done builds quality custom websites to help you achieve your desired results! </p>
+                <h2><MdOutlineMonitor className='icon' /><span> Custom</span> Websites</h2>
+                  
+                    <p>Brian Done builds quality custom websites to help you achieve your desired results and deliver
+                        a professional responsive website! </p>
                     <div><button>Learn More</button></div>
                 </div>
             </div>
