@@ -9,7 +9,7 @@ const Hero = () => {
                     
                     <h1 className='blue'>Custom Quality</h1>
                     <h1>Web Development</h1>
-                    <p>We create websites that generate brand engagement, conversions and measurable results.</p>
+                    <p>Brian Done builds quality custom websites to help you achieve your desired results! </p>
                     <div><button>Learn More</button></div>
                 </div>
             </div>
