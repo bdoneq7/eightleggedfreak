@@ -38,6 +38,12 @@
     border-radius: 10px;
 }
 
+.services button {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    border: 1px solid #000000;
+}
+
 @media screen and (max-width: 940px) {
     .services .content {
         left: 0;

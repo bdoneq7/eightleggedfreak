@@ -16,11 +16,11 @@ const Footer = () => {
                 <div className="top">
 
                     <div className="logo-footer">
-                        <FaSpider className='icon' />
+                        <FaSpider className='icon' alt="8 Legged Freak" title="8 Legged Freak" />
                         <h2>8 Legged Freak</h2>
                     </div>
                     <Link activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                    <BsFillArrowUpCircleFill className='icon' />
+                    <BsFillArrowUpCircleFill className='icon' alt="Scroll to Top" title="Scroll to Top" />
                     </Link>
                 </div>
 

@@ -12,7 +12,7 @@ const Navbar = () => {
         <div name='top' className='navbar'>
             <div className='container'>
                 <div className='logo'>
-                <FaSpider className='icon' />
+                <FaSpider className='icon' alt="8 Legged Freak" title="8 Legged Freak" />
                     <h1>8 Legged Freak</h1>
                     
                 </div>

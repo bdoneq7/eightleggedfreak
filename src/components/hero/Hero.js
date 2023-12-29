@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdOutlineMonitor } from "react-icons/md";
+import { FaFileCode } from "react-icons/fa";
 import './HeroStyles.css';
 
 const Hero = () => {
@@ -8,7 +8,7 @@ const Hero = () => {
             <div className='container'>
                 <div className='content'>
                     
-                <h2><MdOutlineMonitor className='icon' /><span> Custom</span> Websites</h2>
+                <h2><FaFileCode className='icon'/><span> Custom</span> Web Development</h2>
                   
                     <p>Brian Done builds quality custom websites to help you achieve your desired results and deliver
                         a professional responsive website! </p>
