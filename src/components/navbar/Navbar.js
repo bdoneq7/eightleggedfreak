@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className='container'>
                 <div className='logo'>
                 <SiDatabricks className='icon' />
-                    <h1>8 Leggged Freak</h1>
+                    <h1>8 Legged Freak</h1>
                     
                 </div>
 
