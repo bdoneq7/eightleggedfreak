@@ -15,7 +15,7 @@ document.body.removeChild(script);
 }, []);
 
 return React.createElement("stripe-pricing-table", {
-"pricing-table-id": "prctbl_1OT6f5LCcJ68aY6LSbylMUq9",
+"pricing-table-id": "prctbl_1OT75fLCcJ68aY6LDW5EsVEC",
 "publishable-key": "pk_live_51IqURFLCcJ68aY6LPWagifSMjKqmp0Rld1FZQhfSH7NXfJCIWmQNNIWfCIpVAV9FzHm8h9GruOakwuPBXN2N7TfE00Ow8I0ras",
 });
 };
