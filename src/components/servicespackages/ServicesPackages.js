@@ -13,9 +13,9 @@ const ServicesPackages = () => {
                     </p>
                     <p>
                     <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-                    <stripe-pricing-table pricing-table-id="prctbl_1OT5OfLCcJ68aY6LoDu4Nd8w"
-                    publishable-key="pk_live_51IqURFLCcJ68aY6LPWagifSMjKqmp0Rld1FZQhfSH7NXfJCIWmQNNIWfCIpVAV9FzHm8h9GruOakwuPBXN2N7TfE00Ow8I0ras">
-                    </stripe-pricing-table>
+<stripe-pricing-table pricing-table-id="prctbl_1OT5OfLCcJ68aY6LoDu4Nd8w"
+publishable-key="pk_live_51IqURFLCcJ68aY6LPWagifSMjKqmp0Rld1FZQhfSH7NXfJCIWmQNNIWfCIpVAV9FzHm8h9GruOakwuPBXN2N7TfE00Ow8I0ras">
+</stripe-pricing-table>
                     </p>
                     
                 </div>
