@@ -10,13 +10,12 @@ const ServicesPackages = () => {
                     <h2><FaReact className='iconmain' /><span> Web Development</span> Packages</h2>
                     <p>
                     We offer 3 packages that include Website Development, Logo Design, Website Hosting, and Website Maintenance.<br/>
-                    <br/>
-                    Basic Package Includes:<br/>
-                    <br/>
-                    Custom Website Development: $1,000<br/>
-                    Logo Design: $399<br/>
-                    Website Hosting starts at $50/month<br/>
-                    Website Maintenance starts at $50/month<br/>
+                    </p>
+                    <p>
+                    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+                    <stripe-pricing-table pricing-table-id="prctbl_1OT5OfLCcJ68aY6LoDu4Nd8w"
+                    publishable-key="pk_live_51IqURFLCcJ68aY6LPWagifSMjKqmp0Rld1FZQhfSH7NXfJCIWmQNNIWfCIpVAV9FzHm8h9GruOakwuPBXN2N7TfE00Ow8I0ras">
+                    </stripe-pricing-table>
                     </p>
                     
                 </div>
