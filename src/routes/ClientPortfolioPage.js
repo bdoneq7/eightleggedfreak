@@ -1,17 +1,17 @@
 import React from 'react';
 
 import Navbar from '../components/navbar/Navbar';
-import Portfolio from '../components/portfolio/Portfolio';
+import ClientPortfolio from '../components/clientportfolio/ClientPortfolio';
 import Footer from '../components/footer/Footer';
 
-const PortfolioPage = () => {
+const ClientPortfolioPage = () => {
     return  (
         <>
             <Navbar />
-            <Portfolio />
+            <ClientPortfolio />
             <Footer />
         </>
     )
 }
 
-export default PortfolioPage;
+export default ClientPortfolioPage;

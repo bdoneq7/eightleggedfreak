@@ -1,17 +1,17 @@
 import React from 'react';
 
 import Navbar from '../components/navbar/Navbar';
-import Portfolio from '../components/portfolio/Portfolio';
+import ServicesPackages from '../components/servicespackages/ServicesPackages';
 import Footer from '../components/footer/Footer';
 
-const PortfolioPage = () => {
+const ServicesPackagesPage = () => {
     return  (
         <>
             <Navbar />
-            <Portfolio />
+            <ServicesPackages />
             <Footer />
         </>
     )
 }
 
-export default PortfolioPage;
+export default ServicesPackagesPage;

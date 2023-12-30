@@ -2,6 +2,7 @@ import React from 'react';
 import { FaReact } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 import './ServicesStyles.css';
+import {Link} from 'react-router-dom';
 
 const Services = () => {
     return  (
@@ -17,7 +18,13 @@ const Services = () => {
                     Website Hosting starts at $50/month<br/>
                     Website Maintenance starts at $50/month<br/>
                     </p>
-                    <div><button>Learn More <FaArrowRightLong className='iconbutton' /></button></div>
+                    <div>
+                        <button>
+                        <Link to='/services'>
+                            Learn More <FaArrowRightLong className='iconbutton' />
+                        </Link>    
+                        </button>
+                    </div>
                 </div>
             </div>
 

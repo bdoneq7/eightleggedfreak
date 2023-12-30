@@ -1,7 +1,7 @@
 .aboutbrian {
     width: 100%;
     height: 100vh;
-    background: url('../../assets/globe-bg.jpg') no-repeat center center/cover;
+    background: url('../../assets/robot-bg.jpg') no-repeat right/cover;
 }
 
 .aboutbrian .container {
@@ -20,10 +20,53 @@
     
 }
 
-.aboutbrian h1 {
+.aboutbrian h2 {
     color: #f8f8f8;
-    background:rgba(0,0,0,0.5);
+    background:rgba(0,0,0,0.8);
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-right: 17rem;
+    margin-left: -12rem;
+    text-align: center;
+ 
+    
+}
+
+.aboutbrian .content .circle {
+    color: #f8f8f8;
     padding: 0.5rem;
+    border: 5px solid #000000;
+    border-radius: 50%;
+    height: 100rem;
+    width: 18rem;
+    margin-top: 2rem;
+    margin-right: -10rem;
+    background: url('../../assets/brian-bg.jpg') no-repeat right/cover;
+    
+}
+
+.aboutbrian .content .description {
+   
+    color: #f8f8f8;
+    padding: 0.5rem;
+    border-radius: 10px;
+    height: 30rem;
+    margin-top: 2rem;
+    margin-left: -10rem;
+    background:rgba(0,0,0,0.5);
+    text-align: center;
+    
+}
+
+.aboutbrian .iconmain {
+    padding-top: .9rem;
+    padding-right: .5rem;
+    
+}
+
+.aboutbrian .iconbutton {
+    margin-left: 0.75rem;
+    padding-top: .2rem;
     
 }
 

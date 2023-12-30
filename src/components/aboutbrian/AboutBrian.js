@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutBrianStyles.css';
+import { BsPersonBoundingBox } from "react-icons/bs";
 
 const AboutBrian = () => {
     return  (
@@ -7,7 +8,18 @@ const AboutBrian = () => {
             <div className='container'>
                 <div className='content'>
                     
-                    <h1 className='blue'>About Brian</h1>
+                    <h2><BsPersonBoundingBox className='iconmain' /><span>About</span> Brian</h2>
+                    <div className="circle">
+                        
+                    </div>
+
+                    <div className="description">
+                        Brian is a Dynamic and Creative Web Developer than has a passion for excellence!<br/>
+                        <br/>
+                        He has been creating websites for 20+ years and holds a Bachelor Degree in<br/> 
+                        Multimedia & Web Development, and a Full Stack Web Development Certificate.
+                    </div>
+
                     
                 </div>
             </div>

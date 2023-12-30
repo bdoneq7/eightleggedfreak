@@ -8,12 +8,13 @@ const Contact = () => {
                 <div className='form-container'>
                     <form>
                         
-                        <h1><span>Contact</span> Brian</h1>
+                        <h2><span>Contact</span> Brian</h2>
                         
                         <div>
-                            <label>Name</label>
-                            <input type="text" placeholder='Enter Your Name' />
+                            <label>Full Name</label>
+                            <input type="text" placeholder='Enter Your Full Name' />
                         </div>
+                       
                         <div>
                             <label>Email</label>
                             <input type="email" placeholder='Enter Your Email' />

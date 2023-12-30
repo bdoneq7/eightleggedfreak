@@ -11,8 +11,7 @@ const Hero = () => {
                     
                 <h2><FaFileCode className='iconmain'/><span> Custom</span> Web Development</h2>
                   
-                    <p>Brian Done builds quality custom websites to help you achieve your desired results and deliver
-                        a professional responsive website! </p>
+                    <p>Brian Done builds quality custom websites to help you achieve your website dream! </p>
                     <div><button>Learn More <FaArrowRightLong className='iconbutton'/></button></div>
                 </div>
             </div>

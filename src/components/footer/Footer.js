@@ -59,7 +59,8 @@ const Footer = () => {
                     </div>
 
                     <form>
-                        <h3>Contact Us Today</h3>
+                        <h3>Call Brian Today 813.551.9096</h3>
+                        <h3>Email Brian Today </h3>
                         <input type="email" placeholder='Enter Your Email' />
                         <FiMail className='mail-icon' />
 
