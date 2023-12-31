@@ -62,4 +62,8 @@
         width: 100%;
         
     }
+
+    .services h2 {
+        font-size: 2rem;
+    }
 }

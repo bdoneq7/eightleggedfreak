@@ -8,7 +8,19 @@ const ClientPortfolio = () => {
           <div className='container'>
             <div className='content'>
                 <h2><CgWebsite className='iconmain' /><span> Website</span> Portfolio</h2>
-                <p>Cards of Client Websites
+                <p>Nova Ash Artistry Card
+                </p>
+
+                <p>Joey Joey Imagination Station Card
+                </p>
+
+                <p>Exo Solaria Union Card
+                </p>
+
+                <p>Gods of Aumin Card
+                </p>
+
+                <p>What's Out There
                 </p>
                 
             </div>

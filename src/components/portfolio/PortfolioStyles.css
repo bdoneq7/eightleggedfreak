@@ -60,4 +60,8 @@
     .portfolio .content {
         width: 100%;
     }
+
+    .portfolio h2 {
+        font-size: 2rem;
+    }
 }

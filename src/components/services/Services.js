@@ -11,12 +11,13 @@ const Services = () => {
                 <div className='content'>
                     <h2><FaReact className='iconmain' /><span> Web Development</span> Services</h2>
                     <p>
-                    We offer packages that include Website Development, Logo Design, Website Hosting, and Website Maintenance.<br/>
+                    We offer 4 Web Development Packages, 4 Website Hosting Plans, and 4 Website Maintenance Plans:<br/>
                     <br/>
-                    Custom Website Development starts at $1,000<br/>
-                    Logo Design starts at $399<br/>
-                    Website Hosting starts at $50/month<br/>
-                    Website Maintenance starts at $50/month<br/>
+                    Our Basic Web Development Package starts at $1,399<br/>
+                    <br/>
+                    Our Basic Website Hosting Plan starts at $50/month<br/>
+                    <br/>
+                    Our Basic Website Maintenance Plan starts at $50/month<br/>
                     </p>
                     <div>
                         <button>
