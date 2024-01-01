@@ -62,6 +62,11 @@
     }
 
     .portfolio h2 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
+    }
+
+    .portfolio .iconmain {
+        padding-top: .8rem;
+        
     }
 }

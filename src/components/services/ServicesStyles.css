@@ -66,4 +66,9 @@
     .services h2 {
         font-size: 1.7rem;
     }
+
+    .services .iconmain {
+        padding-top: .8rem;
+        
+    }
 }

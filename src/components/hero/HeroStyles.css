@@ -70,7 +70,12 @@
     }
 
     .hero h2 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
+    }
+
+    .hero .iconmain {
+        padding-top: .6rem;
+        
     }
     
 }
