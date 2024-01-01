@@ -82,8 +82,27 @@
 }
 
 @media screen and (max-width:940px) {
+    .aboutbrian {
+        background: url('../../assets/robot-bg.jpg') no-repeat center/cover;
+    }
+    
     .aboutbrian .content {
         margin-left: 1rem;
+    }
+
+    .aboutbrian .content .circle {
+        
+        height: 100rem;
+        width: 18rem;
+        margin-top: 2rem;  
+        
+    }
+
+    .aboutbrian h2 {
+       
+        margin-top: 3rem;
+        margin-left: -12rem;
+        
     }
     
 }
