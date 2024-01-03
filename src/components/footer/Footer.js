@@ -28,8 +28,8 @@ const Footer = () => {
 
                     <div className="col">
                         <h3>Portfolio</h3>
-                        <p>Web Development</p>
-                        <p>Logo Design</p>
+                        <p>Websites</p>
+                        <p>Logos</p>
                         <p>Link</p>
                         <p>Link</p>
                     </div>
@@ -43,24 +43,23 @@ const Footer = () => {
                     </div>
 
                     <div className="col">
-                        <h3>My Account</h3>
-                        <p>Login</p>
-                        <p>FAQ</p>
+                        <h3>Clients</h3>
+                        <p>Account Login</p>
                         <p>Link</p>
-                        <p>Support</p>
+                        <p>Link</p>
+                        <p>Link</p>
                     </div>
 
                     <div className="col">
                         <h3>Company</h3>
-                        <p>About Us</p>
-                        <p>Why Us?</p>
-                        <p>Link</p>
-                        <p>Contact</p>
+                        <p>About Brian</p>
+                        <p>Why 8LeggedFreak?</p>
+                        <p>How It Works</p>
+                        <p>Contact Brian</p>
                     </div>
 
                     <form>
                         <h3>Call Brian Today 813.551.9096</h3>
-                        <h4>Plant City, FL</h4>
                         <h3>Email Brian Today </h3>
                         <input type="email" placeholder='Enter Your Email' />
                         <FiMail className='mail-icon' />

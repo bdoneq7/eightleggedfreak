@@ -1,5 +1,6 @@
 import React from 'react';
 import './ContactStyles.css';
+import { IoIosContact } from "react-icons/io";
 
 const Contact = () => {
     return  (
@@ -9,7 +10,7 @@ const Contact = () => {
 
                 <form name="contactform" method="POST" data-netlify="true">
                         
-                        <h2><span>Contact</span> Brian</h2>
+                        <h2><IoIosContact className='iconmain' /><span>Contact</span> Brian</h2>
                         
                         <div>
                             <label>Full Name</label>

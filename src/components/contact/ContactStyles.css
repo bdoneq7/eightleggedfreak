@@ -59,6 +59,12 @@
     box-shadow: 0 0 12px 0 var(--primary-color);
 }
 
+.contact .iconmain {
+    padding-top: 0.9rem;
+
+    
+}
+
 @media screen and (max-width: 940px) {
     .contact form {
         width: 100%;
