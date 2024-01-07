@@ -36,6 +36,7 @@
     -webkit-text-stroke: 0.2px #000000;
     text-shadow: 2px 2px 4px #000000;
     border: 1px solid #000000;
+    margin-left: .5rem;
 }
 
 .hamburger {
