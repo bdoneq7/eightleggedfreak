@@ -9,8 +9,11 @@ const AboutBrian = () => {
                 <div className='content'>
                     
                     <h2><BsPersonBoundingBox className='iconmain' /><span>About</span> Brian</h2>
+
+                    <div className="circlecontainer">
                     <div className="circle">
                         
+                    </div>
                     </div>
 
                     <div className="description">

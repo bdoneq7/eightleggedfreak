@@ -1,17 +1,27 @@
 .aboutbrian {
     width: 100%;
     height: 100vh;
+    position: relative;
+    background: rgba(0,0,0,0.1);
+}
+
+.aboutbrian:before {
+    content: '';
+    position: absolute;
     background: url('../../assets/robot-bg.jpg') no-repeat right/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 .aboutbrian .content {
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
     padding: 1rem;
-    margin-left: 6rem;
-    margin-top: 5rem;
+    align-items: center;
+   
     
 }
 
@@ -19,12 +29,18 @@
     color: #f8f8f8;
     background:rgba(0,0,0,0.8);
     border-radius: 10px;
+    padding: 0.5rem;
     margin-top: 3rem;
-    margin-right: 17rem;
-    margin-left: -12rem;
     text-align: center;
  
     
+}
+
+.aboutbrian .circlecontainer {
+    background-color: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 .aboutbrian .content .circle {
@@ -32,11 +48,11 @@
     padding: 0.5rem;
     border: 5px solid #000000;
     border-radius: 50%;
-    height: 100rem;
-    width: 18rem;
+    height: 15rem;
+    width: 15rem;
     margin-top: 2rem;
-    margin-right: -10rem;
     background: url('../../assets/brian-bg.jpg') no-repeat right/cover;
+   
     
 }
 
@@ -45,9 +61,8 @@
     color: #f8f8f8;
     padding: 0.5rem;
     border-radius: 10px;
-    height: 30rem;
+    height: 10rem;
     margin-top: 2rem;
-    margin-left: -10rem;
     background:rgba(0,0,0,0.5);
     text-align: center;
     
