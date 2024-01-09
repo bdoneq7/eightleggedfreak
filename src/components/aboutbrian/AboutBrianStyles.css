@@ -83,7 +83,7 @@
 
 @media screen and (max-width:940px) {
     .aboutbrian {
-        background-color: gray;
+        background: url('../../assets/robot-bg.jpg') no-repeat center/cover;
     }
     
     .aboutbrian .content {
@@ -95,6 +95,9 @@
         background:rgba(0,0,0,0.8);
         border-radius: 10px;
         text-align: center;
+        margin-top: 1rem;
+        margin-right: 0;
+        margin-left: 0;
      
         
     }
