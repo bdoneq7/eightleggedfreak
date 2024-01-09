@@ -2,6 +2,7 @@ import React from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link as RouterLink } from "react-router-dom";
 import { FaSpider } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
 import {BsFillArrowUpCircleFill} from 'react-icons/bs';
 import {FiMail, FiInstagram, FiFacebook, FiLinkedin} from 'react-icons/fi';
 import { IoLogoYoutube } from "react-icons/io";
@@ -17,7 +18,9 @@ const Footer = () => {
 
                     <div className="logo-footer">
                         <FaSpider className='icon' alt="8 Legged Freak" title="8 Legged Freak" />
-                        <h2>8 Legged Freak, LLC based in Plant City, FL</h2>
+                        <h2>8 Legged Freak, LLC</h2>
+                        <h4><FaLocationDot className='icon' alt="8 Legged Freak" title="8 Legged Freak" /> Located in Plant City, FL</h4>
+                        <h4>&copy; Copyright 2024</h4>
                     </div>
                     <ScrollLink activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                     <BsFillArrowUpCircleFill className='icon' alt="Scroll to Top" title="Scroll to Top" />
@@ -61,7 +64,7 @@ const Footer = () => {
                     <form>
                         <h3>Call Brian Today 813.551.9096</h3>
                         
-                        <input type="email" placeholder='Contact Brian Now to Start Your Website >' />
+                        <input type="email" placeholder='Email Brian Today to Begin Your Website Consultation' />
                         
                         <RouterLink to='/contact'>
                         <FiMail className='mail-icon' alt="Click Here to Contact Brian" title="Click Here to Contact Brian" />
