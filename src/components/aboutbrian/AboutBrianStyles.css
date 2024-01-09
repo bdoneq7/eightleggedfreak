@@ -4,11 +4,6 @@
     background: url('../../assets/robot-bg.jpg') no-repeat right/cover;
 }
 
-.aboutbrian .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
 .aboutbrian .content {
     height: 75vh;
     display: flex;
@@ -91,8 +86,12 @@
     }
     
     .aboutbrian .content {
-        margin-left: 1rem;
+        position: absolute;
+        left: 0;
+        top: 5%;
         width: 100%;
+        padding: 1rem;
+        
     }
 
     .aboutbrian h2 {
