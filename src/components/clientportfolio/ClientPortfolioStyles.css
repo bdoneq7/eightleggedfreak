@@ -1,6 +1,6 @@
 .clientportfolio {
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background: rgba(0,0,0,0.1);
     position: relative;
 }
@@ -16,10 +16,25 @@
 
 .clientportfolio .content {
     position: absolute;
-    top: 20%;
-    width: 50%;
+    top: 10%;
+    width: 100%;
     left: 0;
     padding: 1rem;
+  
+}
+
+.clientportfolio .contentcard {
+    position: relative;
+    width: 47%;
+    height: 400px;
+    left: 0;
+    padding: 1rem;
+    border-radius: 10px;
+    float: left;
+    color: #ffffff;
+    background: rgba(0,0,0,0.60);
+    margin: 1rem;
+    
   
 }
 
@@ -28,6 +43,15 @@
     padding: 0.5rem;
     background:rgba(0,0,0,0.75);
     border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.clientportfolio h3 {
+    color: #000000;
+    padding: 0.5rem;
+    background:rgba(252, 251, 251, 0.85);
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
 }
 
 .clientportfolio p {
@@ -57,7 +81,30 @@
 }
 
 @media screen and (max-width: 940px) {
+
+    .clientportfolio {
+        width: 100%;
+        height: 150vh;
+        background: rgba(0,0,0,0.1);
+        position: relative;
+    }
+
     .clientportfolio .content {
         width: 100%;
+        top: 5%;
+    }
+
+    .clientportfolio .contentcard {
+        position: relative;
+        width: 95%;
+        height: 300px;
+        left: 0;
+        padding: 1rem;
+        border-radius: 10px;
+        color: #ffffff;
+        background: rgba(0,0,0,0.60);
+        margin: 1rem;
+        
+      
     }
 }

@@ -58,6 +58,13 @@ h2 {
   position: relative;
 }
 
+.halfcontainer {
+  max-width: 1240px;
+  margin: auto;
+  height: 100%;
+  position: relative;
+}
+
 button {
   font-family: 'Roboto', sans-serif;
   padding: .7rem 1.5rem;
