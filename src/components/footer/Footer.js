@@ -19,9 +19,6 @@ const Footer = () => {
                     <div className="logo-footer">
                         <FaSpider className='icon' alt="8 Legged Freak" title="8 Legged Freak" />
                         <h2>8 Legged Freak, LLC</h2>
-                        <br/>
-                        <h4><FaLocationDot className='icon' alt="8 Legged Freak" title="8 Legged Freak" /> Located in Plant City, FL</h4>
-                        <br/>
                         <h4>&copy; Copyright 2024</h4>
                     </div>
                     <ScrollLink activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -65,6 +62,8 @@ const Footer = () => {
 
                     <form>
                         <h3>Call Brian Today 813.551.9096</h3>
+                        <h4><FaLocationDot className='icon' alt="8 Legged Freak" title="8 Legged Freak" /> Located in Plant City, FL</h4>
+                        
                         
                         <input type="email" placeholder='Email Brian Now to Begin Your Website Consult' />
                         
