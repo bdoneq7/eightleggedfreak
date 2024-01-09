@@ -1,5 +1,6 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
+import { Link as RouterLink } from "react-router-dom";
 import { FaSpider } from "react-icons/fa6";
 import {BsFillArrowUpCircleFill} from 'react-icons/bs';
 import {FiMail, FiInstagram, FiFacebook, FiLinkedin} from 'react-icons/fi';
@@ -18,9 +19,9 @@ const Footer = () => {
                         <FaSpider className='icon' alt="8 Legged Freak" title="8 Legged Freak" />
                         <h2>8 Legged Freak, LLC based in Plant City, FL</h2>
                     </div>
-                    <Link activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+                    <ScrollLink activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                     <BsFillArrowUpCircleFill className='icon' alt="Scroll to Top" title="Scroll to Top" />
-                    </Link>
+                    </ScrollLink>
                 </div>
 
                 <div className="col-container">
@@ -62,9 +63,9 @@ const Footer = () => {
                         
                         <input type="email" placeholder='Contact Brian to Start Now!' />
                         
-                        <Link to='/contact'>
+                        <RouterLink to='/contact'>
                         <FiMail className='mail-icon' alt="Click Here to Contact Brian" title="Click Here to Contact Brian" />
-                        </Link>
+                        </RouterLink>
 
                         <h3>Follow Us on Social Media </h3>
                         <div className="social-group">
