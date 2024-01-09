@@ -1,11 +1,10 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import { FaSpider } from "react-icons/fa6";
 import {BsFillArrowUpCircleFill} from 'react-icons/bs';
 import {FiMail, FiInstagram, FiFacebook, FiLinkedin} from 'react-icons/fi';
 import { IoLogoYoutube } from "react-icons/io";
 import './FooterStyles.css';
-
-import {Link} from 'react-scroll';
 
 const Footer = () => {
     return  (
@@ -60,9 +59,12 @@ const Footer = () => {
 
                     <form>
                         <h3>Call Brian Today 813.551.9096</h3>
-                        <h3>Email Brian Today </h3>
-                        <input type="email" placeholder='Enter Your Email' />
-                        <FiMail className='mail-icon' />
+                        
+                        <input type="email" placeholder='Contact Brian to Start Now!' />
+                        
+                        <Link to='/contact'>
+                        <FiMail className='mail-icon' alt="Click Here to Contact Brian" title="Click Here to Contact Brian" />
+                        </Link>
 
                         <h3>Follow Us on Social Media </h3>
                         <div className="social-group">
