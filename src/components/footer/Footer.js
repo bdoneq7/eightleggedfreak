@@ -19,7 +19,7 @@ const Footer = () => {
                     <div className="logo-footer">
                         <FaSpider className='icon' alt="8 Legged Freak" title="8 Legged Freak" />
                         <h2>8 Legged Freak, LLC</h2>
-                        <br/>
+                        <br/><br/>
                         <h4>&copy; Copyright 2024</h4>
                     </div>
                     <ScrollLink activeClass="active" to="top" spy={true} smooth={true} duration={500} >
