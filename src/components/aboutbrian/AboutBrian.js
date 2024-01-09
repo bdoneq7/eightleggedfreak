@@ -16,7 +16,7 @@ const AboutBrian = () => {
                     <div className="description">
                         Brian is a Dynamic and Creative Web Developer than has a passion for excellence!<br/>
                         <br/>
-                        He has been creating websites for 20+ years and holds a Bachelor Degree in<br/> 
+                        He has been creating websites for 20+ years and holds a Bachelor Degree in
                         Multimedia & Web Development, and a Full Stack Web Development Certificate.
                     </div>
 
