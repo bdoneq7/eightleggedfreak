@@ -80,10 +80,6 @@
     .aboutbrian {
         background: url('../../assets/robot-bg.jpg') no-repeat right right/cover;
     }
-
-    .aboutbrian .container {
-        width: 100%;
-    }
     
     .aboutbrian .content {
         position: absolute;
@@ -91,6 +87,7 @@
         top: 5%;
         width: 100%;
         padding: 1rem;
+        margin-left: 0;
         
     }
 
