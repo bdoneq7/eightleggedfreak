@@ -17,7 +17,7 @@ const Footer = () => {
 
                     <div className="logo-footer">
                         <FaSpider className='icon' alt="8 Legged Freak" title="8 Legged Freak" />
-                        <h2>8 Legged Freak, LLC</h2>
+                        <h2>8 Legged Freak, LLC based in Plant City, FL</h2>
                     </div>
                     <Link activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                     <BsFillArrowUpCircleFill className='icon' alt="Scroll to Top" title="Scroll to Top" />
@@ -27,11 +27,11 @@ const Footer = () => {
                 <div className="col-container">
 
                     <div className="col">
-                        <h3>Portfolio</h3>
-                        <p>Websites</p>
-                        <p>Logos</p>
-                        <p>Link</p>
-                        <p>Link</p>
+                        <h3>Company</h3>
+                        <p>About Brian</p>
+                        <p>Portfolio</p>
+                        <p>How It Works</p>
+                        <p>Contact Brian</p>
                     </div>
 
                     <div className="col">
@@ -45,17 +45,17 @@ const Footer = () => {
                     <div className="col">
                         <h3>Clients</h3>
                         <p>Account Login</p>
-                        <p>Link</p>
+                        <p>Referrals</p>
                         <p>Link</p>
                         <p>Link</p>
                     </div>
 
                     <div className="col">
-                        <h3>Company</h3>
-                        <p>About Brian</p>
-                        <p>Why 8LeggedFreak?</p>
-                        <p>How It Works</p>
-                        <p>Contact Brian</p>
+                        <h3>Menu</h3>
+                        <p>Privacy Policy</p>
+                        <p>Legal Policy</p>
+                        <p>Sitemap</p>
+                        <p>Link</p>
                     </div>
 
                     <form>
@@ -64,6 +64,7 @@ const Footer = () => {
                         <input type="email" placeholder='Enter Your Email' />
                         <FiMail className='mail-icon' />
 
+                        <h3>Follow Us on Social Media </h3>
                         <div className="social-group">
                             <FiLinkedin className='social-icon' alt="Linkedin" title="Linkedin"/>
                             <FiFacebook className='social-icon' alt="Facebook" title="Facebook"/>
