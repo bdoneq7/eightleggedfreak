@@ -57,6 +57,10 @@
     text-transform: uppercase;
 }
 
+.footer h4 {
+    margin-bottom: 0;
+}
+
 .footer p {
     margin: .5rem 0;
 }

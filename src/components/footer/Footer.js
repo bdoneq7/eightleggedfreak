@@ -61,13 +61,13 @@ const Footer = () => {
                     <form>
                         <h3>Call Brian Today 813.551.9096</h3>
                         
-                        <input type="email" placeholder='Contact Brian to Start Now!' />
+                        <input type="email" placeholder='Contact Brian Now to Start Your Website >' />
                         
                         <RouterLink to='/contact'>
                         <FiMail className='mail-icon' alt="Click Here to Contact Brian" title="Click Here to Contact Brian" />
                         </RouterLink>
 
-                        <h3>Follow Us on Social Media </h3>
+                        <h4>Follow Us on Social Media </h4>
                         <div className="social-group">
                             <FiLinkedin className='social-icon' alt="Linkedin" title="Linkedin"/>
                             <FiFacebook className='social-icon' alt="Facebook" title="Facebook"/>
