@@ -3,6 +3,10 @@ import { Link as ScrollLink } from 'react-scroll';
 import { Link as RouterLink } from "react-router-dom";
 import { FaSpider } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
+import { BiSolidPhoneCall } from "react-icons/bi";
+import { MdOutlineFollowTheSigns } from "react-icons/md";
+import { GrServices } from "react-icons/gr";
+import { BsPersonHeart } from "react-icons/bs";
 import {BsFillArrowUpCircleFill} from 'react-icons/bs';
 import {FiMail, FiInstagram, FiFacebook, FiLinkedin} from 'react-icons/fi';
 import { IoLogoYoutube } from "react-icons/io";
@@ -37,7 +41,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col">
-                        <h3>Services</h3>
+                        <h3><GrServices className='icon' alt="Services" title="Services" /> Services</h3>
                         <p>Web Development</p>
                         <p>Logo Design</p>
                         <p>Web Hosting</p>
@@ -45,7 +49,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col">
-                        <h3>Clients</h3>
+                        <h3><GrServices className='icon' alt="Clients" title="Clients" /> Clients</h3>
                         <p>Pre-Order FAQ</p>
                         <p>Create Account</p>
                         <p>Account Login</p>
@@ -61,8 +65,8 @@ const Footer = () => {
                     </div>
 
                     <form>
-                        <h3>Call Brian Today 813.551.9096</h3>
-                        <h4><FaLocationDot className='icon' alt="8 Legged Freak" title="8 Legged Freak" /> Located in Plant City, FL</h4>
+                        <h3><BiSolidPhoneCall className='icon' alt="Call Brian Today" title="Call Brian Today" /> Call Brian Today 813.551.9096</h3>
+                        <h4><FaLocationDot className='icon' alt="Location" title="Location" /> Located in Plant City, FL</h4>
                         <br/>
                         
                         <input type="email" placeholder='Email Brian to Begin Your Website Consult' />
@@ -71,7 +75,7 @@ const Footer = () => {
                         <FiMail className='mail-icon' alt="Click Here to Contact Brian" title="Click Here to Contact Brian" />
                         </RouterLink>
 
-                        <h4>Follow 8LeggedFreak on Social Media </h4>
+                        <h4><MdOutlineFollowTheSigns className='icon' alt="Follow 8 Legged Freak" title="Follow 8 Legged Freak" /> Follow 8LeggedFreak on Social Media </h4>
                         <div className="social-group">
                             <FiLinkedin className='social-icon' alt="Linkedin" title="Linkedin"/>
                             <FiFacebook className='social-icon' alt="Facebook" title="Facebook"/>
