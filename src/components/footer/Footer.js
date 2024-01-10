@@ -7,6 +7,7 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 import { MdOutlineFollowTheSigns } from "react-icons/md";
 import { GrServices } from "react-icons/gr";
 import { BsPersonHeart } from "react-icons/bs";
+import { MdPolicy } from "react-icons/md";
 import {BsFillArrowUpCircleFill} from 'react-icons/bs';
 import {FiMail, FiInstagram, FiFacebook, FiLinkedin} from 'react-icons/fi';
 import { IoLogoYoutube } from "react-icons/io";
@@ -33,7 +34,7 @@ const Footer = () => {
                 <div className="col-container">
 
                     <div className="col">
-                        <h3>Company</h3>
+                        <h3><FaSpider className='icon' alt="8 Legged Freak Company" title="8 Legged Freak Company" /> Company</h3>
                         <p>About Brian</p>
                         <p>Portfolio</p>
                         <p>How It Works</p>
@@ -49,7 +50,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col">
-                        <h3><GrServices className='icon' alt="Clients" title="Clients" /> Clients</h3>
+                        <h3><BsPersonHeart className='icon' alt="Clients" title="Clients" /> Clients</h3>
                         <p>Pre-Order FAQ</p>
                         <p>Create Account</p>
                         <p>Account Login</p>
@@ -57,7 +58,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col">
-                        <h3>General</h3>
+                        <h3><MdPolicy className='icon' alt="General" title="General" /> General</h3>
                         <p>Privacy Policy</p>
                         <p>Legal Policy</p>
                         <p>Sitemap</p>
