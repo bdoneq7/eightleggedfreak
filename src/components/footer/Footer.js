@@ -18,7 +18,7 @@ const Footer = () => {
 
                     <div className="logo-footer">
                         <FaSpider className='icon' alt="8 Legged Freak" title="8 Legged Freak" />
-                        <h2>8 Legged Freak, LLC &copy; Copyright 2024</h2>
+                        <h2>8 Legged Freak, LLC &copy; Copyright 2024. All Rights Reserved.</h2>
                      
                     </div>
                     <ScrollLink activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -46,10 +46,10 @@ const Footer = () => {
 
                     <div className="col">
                         <h3>Clients</h3>
+                        <p>Pre-Order FAQ</p>
+                        <p>Create Account</p>
                         <p>Account Login</p>
                         <p>Referrals</p>
-                        <p>Link</p>
-                        <p>Link</p>
                     </div>
 
                     <div className="col">
@@ -57,7 +57,7 @@ const Footer = () => {
                         <p>Privacy Policy</p>
                         <p>Legal Policy</p>
                         <p>Sitemap</p>
-                        <p>Link</p>
+                        <p>Resources</p>
                     </div>
 
                     <form>
