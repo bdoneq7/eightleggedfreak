@@ -18,9 +18,8 @@ const Footer = () => {
 
                     <div className="logo-footer">
                         <FaSpider className='icon' alt="8 Legged Freak" title="8 Legged Freak" />
-                        <h2>8 Legged Freak, LLC</h2>
-                        <br/><br/>
-                        <h4>&copy; Copyright 2024</h4>
+                        <h2>8 Legged Freak, LLC &copy; Copyright 2024</h2>
+                     
                     </div>
                     <ScrollLink activeClass="active" to="top" spy={true} smooth={true} duration={500} >
                     <BsFillArrowUpCircleFill className='icon' alt="Scroll to Top" title="Scroll to Top" />
@@ -72,7 +71,7 @@ const Footer = () => {
                         <FiMail className='mail-icon' alt="Click Here to Contact Brian" title="Click Here to Contact Brian" />
                         </RouterLink>
 
-                        <h4>Follow Us on Social Media </h4>
+                        <h4>Follow 8LeggedFreak on Social Media </h4>
                         <div className="social-group">
                             <FiLinkedin className='social-icon' alt="Linkedin" title="Linkedin"/>
                             <FiFacebook className='social-icon' alt="Facebook" title="Facebook"/>
