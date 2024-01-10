@@ -53,7 +53,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col">
-                        <h3>Menu</h3>
+                        <h3>General</h3>
                         <p>Privacy Policy</p>
                         <p>Legal Policy</p>
                         <p>Sitemap</p>
