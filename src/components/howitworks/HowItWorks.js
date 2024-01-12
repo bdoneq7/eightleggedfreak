@@ -16,7 +16,7 @@ const HowItWorks = () => {
         <div className='howitworks'>
           <div className='container'>
             <div className='content'>
-                <h2><FcProcess className='iconmain' /><span> How It Works</span> </h2>
+                <h2><FcProcess className='iconmain' />How It Works</h2>
                 <p>
                 8 Legged Freak is your one-stop shop for developing your new website and we are excited to be bring your vision
                 to life! We will walk you through how our web development process works to ensure you know exactly what to expect.
