@@ -9,7 +9,7 @@ const ServicesPackages = () => {
         <div className='servicespackages'>
             <div className='container'>
                 <div className='content'>
-                    <h2><FaReact className='iconmain' /><span> Web Development</span> Packages</h2>
+                    <h2><FaReact className='iconmain' /><span> Web Development</span> Package Pricing</h2>
                     <p>
                     8LeggedFreak offers 4 Web Development Packages and 4 Website Hosting and Post-Development Website Maintenance Plans.<br/>
                     <br/>
