@@ -1,6 +1,7 @@
 import React from 'react';
 import './HowItWorksStyles.css';
 import { FcProcess } from "react-icons/fc";
+import { LuStepForward } from "react-icons/lu";
 
 const HowItWorks = () => {
     return  (
@@ -13,7 +14,7 @@ const HowItWorks = () => {
                 to life! We will walk you through how our web development process works to ensure you know exactly what to expect.
                 </p>
                 <p>
-                  STEP 1: Fill Out Website Needs Evaluation Contact Form
+                < LuStepForward className='iconmain' /> STEP 1: Fill Out Website Needs Evaluation Contact Form
                 </p>
                 <p>
                   STEP 2: Choose Web Development Package
