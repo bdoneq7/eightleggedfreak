@@ -30,6 +30,15 @@
     border-radius: 10px;
 }
 
+.howitworks h3 {
+    color: #f8f8f8;
+    padding: 0.5rem;
+    background:rgba(0,0,0,0.7);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+   
+}
+
 .howitworks p {
     color: #f8f8f8;
     margin: 1rem 0;
@@ -50,6 +59,15 @@
 
     
 }
+
+.howitworks .iconstep {
+    padding-top: 0.4rem;
+    
+
+    
+}
+
+
 
 .howitworks .iconbutton {
     margin-left: 0.75rem;

@@ -12,8 +12,10 @@ const Hero = () => {
                 <h2><FaFileCode className='iconmain'/><span> Custom</span> Web Development</h2>
                   
                     <p>Brian Done, the owner of 8LeggedFreak, will build you a quality custom react website that will help you achieve your website dreams!<br/>
+                    <br/>
                     Brian will give you the personalized attention required to translate your website vision into reality and provide the on-going support
                     to keep your website updated and keep you satisifed.
+                    <br/>
                     <br/>
                     Website Packages are conveniently offered to ensure a clear and straight-forward web development experience.
                     <br/>
