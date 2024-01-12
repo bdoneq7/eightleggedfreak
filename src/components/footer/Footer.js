@@ -35,18 +35,18 @@ const Footer = () => {
 
                     <div className="col">
                         <h3><FaSpider className='icon' alt="8 Legged Freak Company" title="8 Legged Freak Company" /> Company</h3>
-                        <p>About Brian</p>
-                        <p>Portfolio</p>
-                        <p>How It Works</p>
-                        <p>Contact Brian</p>
+                        <p><RouterLink to='/aboutbrian'>About Brian</RouterLink></p>
+                        <p><RouterLink to='/clientportfolio'>Portfolio</RouterLink></p>
+                        <p><RouterLink to='/howitworks'>How It Works</RouterLink></p>
+                        <p><RouterLink to='/contact'>Contact Brian</RouterLink></p>
                     </div>
 
                     <div className="col">
                         <h3><GrServices className='icon' alt="Services" title="Services" /> Services</h3>
-                        <p>Web Development</p>
+                        <p><RouterLink to='/servicespackages'>Web Development</RouterLink></p>
                         <p>Logo Design</p>
-                        <p>Web Hosting</p>
-                        <p>Web Maintenance</p>
+                        <p><RouterLink to='/servicespackages'>Web Hosting</RouterLink></p>
+                        <p><RouterLink to='/servicespackages'>Web Maintenance</RouterLink></p>
                     </div>
 
                     <div className="col">

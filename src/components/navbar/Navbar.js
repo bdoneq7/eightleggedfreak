@@ -3,6 +3,7 @@ import { FaSpider } from "react-icons/fa6";
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 import './NavbarStyles.css';
+import { FaHome } from "react-icons/fa";
 
 const Navbar = () => {
     const [nav,setNav] =useState(false);
@@ -20,10 +21,10 @@ const Navbar = () => {
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/'><FaHome className='icon' alt="Homepage" title="Homepage" />Home</Link></li>
                     <li><Link to='/aboutbrian'>About Brian</Link></li>
                     <li><Link to='/clientportfolio'>Portfolio</Link></li>
-                    <li><Link to='/servicespackages'>Services</Link></li>
+                    <li><Link to='/servicespackages'>Pricing</Link></li>
                     <li><Link to='/howitworks'>How It Works</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
                     <button>Login</button>
