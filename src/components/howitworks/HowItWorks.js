@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './HowItWorksStyles.css';
 import { FcProcess } from "react-icons/fc";
 import { GoPackage } from "react-icons/go";
@@ -21,13 +22,13 @@ const HowItWorks = () => {
                 to life! We will walk you through how our web development process works to ensure you know exactly what to expect.
                 </p>
                 <h3>
-                < GoPackage size='25' className='iconstep' /> STEP 1: Choose Web Development Package
+                < GoPackage size='25' className='iconstep' /> STEP 1: Choose Your <Link to='/servicespackages'>Web Development Package</Link>
                 </h3>
                 <h3>
-                < GrHostMaintenance size='25' className='iconstep' /> STEP 2: Choose Web Hosting & Maintenance Plan
+                < GrHostMaintenance size='25' className='iconstep' /> STEP 2: Choose Your <Link to='/servicespackages'>Web Hosting & Maintenance Plan</Link>
                 </h3>
                 <h3>
-                < FaWpforms size='25' className='iconstep' /> STEP 3: Fill Out Website Needs Evaluation Contact Form
+                < FaWpforms size='25' className='iconstep' /> STEP 3: Fill Out Website Needs Evaluation <Link to='/contact'>Contact Form</Link>
                 </h3>
                 <h3>
                 < MdMeetingRoom size='25' className='iconstep' /> STEP 4: In Person or Zoom Meeting with Brian to get to know each other.<br/>
@@ -40,7 +41,7 @@ const HowItWorks = () => {
                 < FaFileContract size='25' className='iconstep' /> STEP 5: Sign Web Development, Hosting, and Maintenance Contract
                 </h3>
                 <h3>
-                < MdAttachMoney size='25' className='iconstep' /> STEP 6: Pay 50% Deposit of Chosen Web Development Package
+                < MdAttachMoney size='25' className='iconstep' /> STEP 6: <Link to='/servicespackages'>Pay 50% Deposit of Chosen Web Development Package</Link>
                 </h3>
                 <h3>
                 < CgWebsite size='25' className='iconstep' /> STEP 7: Brian completes Web Development Stages. This includes 3 Phases.<br/>
@@ -52,10 +53,10 @@ const HowItWorks = () => {
                   perfectly and to make sure it's just right.
                 </h3>
                 <h3>
-                < MdAttachMoney size='25' className='iconstep' /> STEP 8: Pay remaining 50% cost of Chosen Web Development Package
+                < MdAttachMoney size='25' className='iconstep' /> STEP 8: <Link to='/servicespackages'>Pay remaining 50% cost of Chosen Web Development Package</Link>
                 </h3>
                 <h3>
-                < MdAttachMoney size='25' className='iconstep' /> STEP 9: Subscribe to Chosen Monthly Hosting and Maintenance Plan
+                < MdAttachMoney size='25' className='iconstep' /> STEP 9: <Link to='/servicespackages'>Subscribe to Chosen Monthly Hosting and Maintenance Plan</Link>
                 </h3>
                 <h3>
                 < CgWebsite size='25' className='iconstep' /> STEP 10: Your Website will now become live on the Internet & your website files will be provided to you

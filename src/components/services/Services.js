@@ -25,7 +25,7 @@ const Services = () => {
                     </p>
                     <div>
                         <button>
-                        <Link to='/services'>
+                        <Link to='/servicespackages'>
                             Learn More <FaArrowRightLong className='iconbutton' />
                         </Link>    
                         </button>
