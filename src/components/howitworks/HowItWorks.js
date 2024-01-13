@@ -44,19 +44,20 @@ const HowItWorks = () => {
                 < MdAttachMoney size='25' className='iconstep' /> STEP 6: <Link to='/servicespackages'>Pay 50% Deposit of Chosen Web Development Package</Link>
                 </h3>
                 <h3>
-                < CgWebsite size='25' className='iconstep' /> STEP 7: Brian completes Web Development Stages. This includes 3 Phases.<br/>
+                < CgWebsite size='25' className='iconstep' /> STEP 7: Brian completes Web Development Stages. This includes 4 Phases.<br/>
                 <br/>
-                  A. Creative Phase: Brian creates a website concept, prototype, layout, and interface.<br/>
-                  B. Development Phase: Time to start coding and build the actual website! Brian will give you
+                  A. We work together to create a Netlify Hosting Account for your website with the appropriate Netlify License, and setup Netlify Billing.<br/>
+                  B. Creative Phase: Brian creates a website concept, prototype, layout, and interface.<br/>
+                  C. Development Phase: Time to start coding and build the actual website! Brian will give you
                   regular updates to make sure we stay in sync.<br/>
-                  C. Pre-Launch Phase: Extended testing of all website features to make sure everything is working
+                  D. Pre-Launch Phase: Extended testing of all website features to make sure everything is working
                   perfectly and to make sure it's just right.
                 </h3>
                 <h3>
                 < MdAttachMoney size='25' className='iconstep' /> STEP 8: <Link to='/servicespackages'>Pay remaining 50% cost of Chosen Web Development Package</Link>
                 </h3>
                 <h3>
-                < MdAttachMoney size='25' className='iconstep' /> STEP 9: <Link to='/servicespackages'>Subscribe to Chosen Monthly Hosting and Maintenance Plan</Link>
+                < MdAttachMoney size='25' className='iconstep' /> STEP 9: <Link to='/servicespackages'>Subscribe to Chosen Monthly Maintenance Plan</Link>
                 </h3>
                 <h3>
                 < CgWebsite size='25' className='iconstep' /> STEP 10: Your Website will now become live on the Internet & your website files will be provided to you
