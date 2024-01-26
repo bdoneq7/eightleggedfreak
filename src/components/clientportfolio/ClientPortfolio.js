@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import './ClientPortfolioStyles.css';
 import { CgWebsite } from "react-icons/cg";
 import NovaAshArtistry from "../../assets/novaashartistry.png";
-import ExoSolariaUnion from "../../assets/exosolariaunion.jpg";
+import ExoSolariaUnion from "../../assets/exosolariaunion.png";
 import JoeyJoeyImaginationStation from "../../assets/joeyjoeyimaginationconcept.png";
 import WhatsOutThere from "../../assets/ufoconcept.jpg";
 
