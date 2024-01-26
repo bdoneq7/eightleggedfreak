@@ -5,7 +5,7 @@ import { CgWebsite } from "react-icons/cg";
 import NovaAshArtistry from "../../assets/novaashartistry.png";
 import ExoSolariaUnion from "../../assets/exosolariaunion.png";
 import JoeyJoeyImaginationStation from "../../assets/joeyjoeyimaginationconcept.png";
-import WhatsOutThere from "../../assets/ufoconcept.jpg";
+import EBookStore from "../../assets/ebookstore.jpg";
 
 const ClientPortfolio = () => {
     return  (
@@ -35,8 +35,8 @@ const ClientPortfolio = () => {
                 </div>
 
                 <div className='contentcard'>
-                <h3>What's Out There</h3>
-                  <img src={WhatsOutThere} style={{ width: "100%", height: "84%" }} alt="What's Out There" title="What's Out There" />
+                <h3>E-Book Store</h3>
+                  <img src={EBookStore} style={{ width: "100%", height: "84%" }} alt="E-Book Store" title="E-Book Store" />
                 
                 </div>
                 
