@@ -3,8 +3,26 @@ import { FaSpider } from "react-icons/fa6";
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 import './NavbarStyles.css';
+import {GoogleButton} from 'react-google-button';
+import {UserAuth} from '../../context/AuthContext';
+
+
 
 const Navbar = () => {
+
+    const {googleSignIn} = UserAuth();
+
+    const handleGoogleSignIn = async () => {
+
+    try {
+        await googleSignIn 
+    } catch (error) {
+        console.log(error);
+    }
+
+}
+
+
     const [nav,setNav] =useState(false);
     const handleNav = () => setNav(!nav);
 
@@ -27,7 +45,7 @@ const Navbar = () => {
                     <li><Link to='/servicespackages'>Pricing</Link></li>
                     <li><Link to='/howitworks'>How It Works</Link></li>
                     <li><Link to='/contact'>Contact</Link></li>
-                    <button>Login</button>
+                    <GoogleButton className="googlebutton" onClick={handleGoogleSignIn}/>
                 </ul>
 
                 <div className='hamburger'onClick={handleNav}>

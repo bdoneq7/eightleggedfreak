@@ -1,0 +1,81 @@
+.account {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgba(0,0,0,0.1);
+}
+
+.account:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/globe-bg.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.account .content {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    padding: 1rem;
+    
+}
+
+.account h2 {
+    color: #f8f8f8;
+    background:rgb(1, 1, 101, 0.75);
+    padding: 0.5rem;
+    border-radius: 10px;
+    
+}
+
+.account p {
+    color: #f8f8f8;
+    padding-top: 1rem;
+    background:rgba(0, 0, 101, 0.75);
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.account .blue {
+    color: var(--primary-color);
+}
+
+.account button {
+    color: #ffffff;
+    -webkit-text-stroke: 0.2px #000000;
+    text-shadow: 2px 2px 4px #000000;
+    border: 1px solid #000000;
+}
+
+.account .iconmain {
+    padding-top: .7rem;
+    
+}
+
+.account .iconbutton {
+    margin-left: 0.75rem;
+    padding-top: .25rem;
+    
+}
+
+@media screen and (max-width:940px) {
+    .account .content {
+        left: 0;
+        width: 100%;
+        
+    }
+
+    .account h2 {
+        font-size: 1.7rem;
+    }
+
+    .account .iconmain {
+        padding-top: .5rem;
+        
+    }
+    
+}

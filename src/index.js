@@ -10,8 +10,10 @@ import ClientPortfolioPage from './routes/ClientPortfolioPage';
 import ServicesPackagesPage from './routes/ServicesPackagesPage';
 import HowItWorksPage from './routes/HowItWorksPage';
 import ContactPage from './routes/ContactPage';
+import { AuthContextProvider } from './context/AuthContext';
 
 ReactDOM.render(
+  <AuthContextProvider>
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<App />} />
@@ -21,7 +23,8 @@ ReactDOM.render(
       <Route path='/howitworks' element={<HowItWorksPage />} />
       <Route path='/contact' element={<ContactPage />} />
     </Routes>
-  </BrowserRouter>,
+  </BrowserRouter>
+  </AuthContextProvider>,
   document.getElementById('root')
 );
 
