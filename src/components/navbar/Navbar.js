@@ -10,17 +10,17 @@ import {UserAuth} from '../../context/AuthContext';
 
 const Navbar = () => {
 
-    const {googleSignIn} = UserAuth();
+    const { googleSignIn } = UserAuth();
 
     const handleGoogleSignIn = async () => {
 
     try {
-        await googleSignIn 
+        await googleSignIn();
     } catch (error) {
         console.log(error);
     }
 
-}
+};
 
 
     const [nav,setNav] =useState(false);
