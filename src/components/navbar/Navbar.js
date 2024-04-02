@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import { FaSpider } from "react-icons/fa6";
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
@@ -25,14 +25,14 @@ const Navbar = () => {
     }
 };
 
-    useEffect(() => {
-        if(user !=null) {
-            navigate('/account');   
-            } 
-            else if (!user) {
-                navigate('/');
-            }
-    }, );
+    // useEffect(() => {
+    //     if(user !=null) {
+    //         navigate('/');   
+    //         } 
+    //         else if (!user) {
+    //             navigate('/');
+    //         }
+    // }, );
 
     
 
