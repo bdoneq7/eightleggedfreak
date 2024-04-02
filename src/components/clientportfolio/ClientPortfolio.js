@@ -31,19 +31,19 @@ const ClientPortfolio = () => {
 
                 <div className='contentcard'>
                 <h3>Joey Joey Imagination Station</h3>
-                  <img src={JoeyJoeyImaginationStation} style={{ width: "100%", height: "84%" }} alt="Joey Joey Imagination Station" title="Joey Joey Imagination Station" />
+                  <img src={JoeyJoeyImaginationStation} style={{ width: "100%", height: "84%" }} alt="Joey Joey Imagination Station - Concept for App in Development" title="Joey Joey Imagination Station- Concept for App in Development" />
                 
                 </div>
 
                 <div className='contentcard'>
                 <h3>E-Book Store</h3>
-                  <img src={EBookStore} style={{ width: "100%", height: "84%" }} alt="E-Book Store" title="E-Book Store" />
+                  <img src={EBookStore} style={{ width: "100%", height: "84%" }} alt="E-Book Store - Concept for App in Development" title="E-Book Store - Concept for App in Development" />
                 
                 </div>
 
                 <div className='contentcard'>
                 <h3>Gods of Aumin</h3>
-                  <img src={GodsofAumin} style={{ width: "100%", height: "84%" }} alt="Gods of Aumin" title="Gods of Aumin" />
+                  <img src={GodsofAumin} style={{ width: "100%", height: "84%" }} alt="Gods of Aumin TTRPG System - Concept for App in Development" title="Gods of Aumin TTRPG System - Concept for App in Development" />
                 
                 </div>
 
